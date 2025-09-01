@@ -1,0 +1,9 @@
+undetected-chromedriver
+selenium
+beautifulsoup4
+tabulate
+python-dotenv
+requests
+pydantic 
+pydantic-core
+openai
