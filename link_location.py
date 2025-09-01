@@ -69,7 +69,7 @@ def setup_optimized_driver():
     profile_path = "C:/Users/Administrator/AppData/Local/Microsoft/Edge/User Data"
     if os.path.exists(profile_path):
         options.add_argument(f"--user-data-dir={profile_path}")
-        options.add_argument("--profile-directory=Profile 2")
+        options.add_argument("--profile-directory=Profile 4")
     
     service = EdgeService()
     driver = webdriver.Edge(service=service, options=options)
